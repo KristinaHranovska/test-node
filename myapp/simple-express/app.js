@@ -1,3 +1,9 @@
+require('dotenv').config();
+
+// console.log(process.env.SECRET_KEY,
+//   process.env.NODE_ENV
+// );
+
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
